@@ -15,7 +15,7 @@ const Duties = ({duties}) => {
             console.log(id) 
 
             console.log(duty)
-            return <div key={index} className='job-desc'>
+            return <div key={id} className='job-desc'>
                 <FaAngleDoubleRight className='job-icon' />
                 <p>{duty}</p>
             </div>
