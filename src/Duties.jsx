@@ -9,7 +9,7 @@ const Duties = ({duties}) => {
 
   return (
     <div>
-        {duties.map((duty, index) => {
+        {duties.map((duty) => {
              
              const id = uuidv4()
             console.log(id) 
